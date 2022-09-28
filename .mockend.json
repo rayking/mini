@@ -1,22 +1,14 @@
 {
-  
   "Post": {
-
-      "code": {
-        "int": [
-          100,
-          200,
-          300
-        ]
-      },
-      "data": {
-        "array":[{
-          "thumb": "",
-          "name": "星空闪耀网吧",
-      
-          "isBind": true
-        }]
-      }
-  
+    "title": { "string": {} },
+    "comments": {
+      "hasMany": "Comment"
+    }
+  },
+  "Comment": {
+    "body": { "string": {} },
+    "post": {
+      "belongsTo": "Post"
+    }
   }
 }
