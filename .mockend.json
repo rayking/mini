@@ -3,8 +3,7 @@
     "title": { "string": {} },
     "comments": {
       "hasMany": "Comment"
-    },
-    "limit": 5
+    }
   },
   "Comment": {
     "body": { "string": {} },
