@@ -1,23 +1,29 @@
 {
+  
   "Post": {
-    "thumb": {
-      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
-    },
-    "name": {
-      "string":[
-        "星空闪耀网吧",
-        "星空闪耀网吧科华路分店"
-      ]
-    },
 
-    "isBind": {
-      "boolean": {}
-    },
-    "createdAt": {
-      "dateTime": {
-        "min": "2010-01-01T00:00:00Z",
-        "max": "2020-12-31T23:59:59Z"
+      "code": {
+        "int": [
+          100,
+          200,
+          300
+        ]
+      },
+      "data": {
+        "thumb": {
+          "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
+        },
+        "name": {
+          "string":[
+            "星空闪耀网吧",
+            "星空闪耀网吧科华路分店"
+          ]
+        },
+    
+        "isBind": {
+          "boolean": {}
+        }
       }
-    }
+  
   }
 }
