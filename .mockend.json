@@ -1,28 +1,16 @@
 {
   "Post": {
-    "cover": {
+    "thumb": {
       "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
     },
-    "title": {
-      "loremWords": {
-        "minLength": 5,
-        "maxLength": 20
-      }
-    },
-    "body": {
-      "loremParagraphs": {
-        "minLength": 10,
-        "maxLength": 100
-      }
-    },
-    "tag": {
-      "string": [
-        "one",
-        "two",
-        "three"
+    "name": {
+      "string":[
+        "星空闪耀网吧",
+        "星空闪耀网吧科华路分店"
       ]
     },
-    "isDraft": {
+
+    "isBind": {
       "boolean": {}
     },
     "createdAt": {
