@@ -1,14 +1,18 @@
 {
+  
   "Post": {
-    "title": { "string": {} },
-    "comments": {
-      "hasMany": "Comment"
-    }
-  },
-  "Comment": {
-    "body": { "string": {} },
-    "post": {
-      "belongsTo": "Post"
+    "thumb": {
+      "regexp": "https://cdnimg.sw0013.com/apphtml/freshPrize/assets/img/mobilefee.png"
+    },
+    "name": {
+      "string":[
+        "星空闪耀网吧",
+        "星空闪耀网吧科华路分店"
+      ]
+    },
+
+    "isBind": {
+      "boolean": {}
     }
   }
 }
