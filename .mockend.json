@@ -11,19 +11,10 @@
       },
       "data": {
         "array":[{
-          "thumb": {
-            "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
-          },
-          "name": {
-            "string":[
-              "星空闪耀网吧",
-              "星空闪耀网吧科华路分店"
-            ]
-          },
+          "thumb": "",
+          "name": "星空闪耀网吧",
       
-          "isBind": {
-            "boolean": {}
-          }
+          "isBind": true
         }]
       }
   
