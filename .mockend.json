@@ -1,18 +1,31 @@
 {
   
   "Post": {
-    "thumb": {
-      "regexp": "https://cdnimg.sw0013.com/apphtml/freshPrize/assets/img/mobilefee.png"
-    },
-    "name": {
-      "string":[
-        "星空闪耀网吧1",
-        "星空闪耀网吧科华路分店2"
+    "code": {
+      "int": [
+        100,
+        200,
+        300
       ]
     },
-
-    "isBind": {
-      "boolean": {}
+    "data":{
+      "array": [
+        {
+          "thumb": {
+            "regexp": "https://cdnimg.sw0013.com/apphtml/freshPrize/assets/img/mobilefee.png"
+          },
+          "name": {
+            "string":[
+              "星空闪耀网吧1",
+              "星空闪耀网吧科华路分店2"
+            ]
+          },
+      
+          "isBind": {
+            "boolean": {}
+          }
+        }
+      ]
     }
   }
 }
